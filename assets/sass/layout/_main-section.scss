@@ -1,0 +1,106 @@
+
+
+
+.grilla-item-1{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em .5em;
+    
+    border: rgb(129, 129, 129) solid 1px;
+
+}
+.grilla-item-2{
+    border: rgb(129, 129, 129) solid 1px;
+    padding: 1.5em 
+}
+
+.cuadros-interior{
+    border: rgb(211, 211, 211) solid 1px;
+    width: 95%;
+    height: auto;
+  padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+
+
+
+
+.img-1{
+width: 100%;
+height: auto;
+
+
+}
+
+.numero-iconos{
+    margin-right: 1em;
+}
+
+
+.contenedor__iconos{
+    margin-top: .5em;
+}
+
+.foto-redonda{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border:  black solid 1px;
+    width: 10em;
+    height: 10em;
+    -webkit-border-radius: 98px;
+    -moz-border-radius: 98px;
+    -ms-border-radius: 98px;
+    -o-border-radius: 98px;
+}
+.imagen-desarrollo{
+    width: 100%;
+    border-radius: 98px;
+    -webkit-border-radius: 98px;
+    -moz-border-radius: 98px;
+    -ms-border-radius: 98px;
+    -o-border-radius: 98px;
+}
+
+ul li a{
+    text-decoration: none;
+    list-style-type: circle;
+    color: rgb(113, 41, 172);
+
+}
+
+.mas-cursos{
+    text-align: center;
+ 
+    background-color: gray;
+    color: $white;
+}
+.card-3{
+
+   width: 10em; 
+margin-left: auto;
+margin-right: auto;
+}
+
+@media only screen and (min-width: $very-small) and (max-width:$small){ //desde 320 hasta 576px 
+
+    .grilla-item-1{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em .5em;
+        margin-top: -3em;
+        border: rgb(129, 129, 129) solid 1px;
+    
+    }
+
+
+
+
+
+}

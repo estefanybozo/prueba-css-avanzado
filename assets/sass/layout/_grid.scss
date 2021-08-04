@@ -1,0 +1,39 @@
+.grilla{
+    padding: 1em;
+width: 100%;
+height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media only screen and (min-width: $very-small) and (max-width:$small){ //desde 320 hasta 576px 
+    .grilla{
+        padding: 1em;
+    width: 100%;
+    height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1em;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .grilla-item-2{
+        border: rgb(129, 129, 129) solid 1px;
+        padding: 1.5em;
+        margin-top:1em; 
+    }
+
+
+
+}
